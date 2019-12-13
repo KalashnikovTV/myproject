@@ -2,10 +2,16 @@
     box-sizing: border-box;
 }
 
-a {
-    color: ffffff;
-    text-decoration: none;
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
 }
 
 body {
@@ -17,7 +23,6 @@ body {
 .container {
     max-width: 1240px;
     margin: 0 auto;
-    background: black;
     padding: 0 15px;
 }
 
@@ -50,7 +55,7 @@ header {
 .top {
     background-color: black;
     padding-top: 178px;
-    padding-bottom: 419px;
+    padding-bottom: 140px;
 }
 
 .top-info {
@@ -58,7 +63,6 @@ header {
     font-weight: 300;
     margin: 0 auto;
     text-align: center;
-    
 }
 
 .top-info p {
@@ -98,10 +102,128 @@ header {
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 3px;
-    color: #aeaeae;
+    color: #dadada;
+    position: relative;
+    padding-left: 32px;
+    text-align: left;
+    left: 300px;
+}
+
+.top-info__list li::before {
+    content: "";
+    background-image: url(../images/list-icon2.png);
+    width: 21px;
+    height: 17px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
 }
 
 .top-info__btn {
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 13px 44px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
 }
+
 .top-info__btn-descr {
+    color: #aeaeae;
+    font-weight: 300;
 }
+
+.about {
+    background-color: #fff;
+    padding-top: 135px;
+    padding-bottom: 100px;
+}
+
+.about__inner {
+    display: flex;
+}
+
+
+.about-info {
+    order: 2;
+    max-width: 430px;
+    text-align: left;
+    margin-left: 175px;
+}
+
+.about-info h1 {
+    display: table;
+    border-bottom: 4px solid #fcac45;
+    line-height: 65px;
+}
+
+.about-info__title {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+.about-info__title span {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+.about-info__descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6c6c6c;
+    margin-bottom: 50px;
+    display: block;
+    word-break: break-word;  /* Перенос слов(найти с дефисом)*/
+}
+.about_info__list {
+    list-style: none;
+}
+
+.about_info__list li {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    position: relative;
+    padding-left: 25px;
+}
+
+.about_info__list li span {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    color: #5a5a5a;
+    line-height: 30px;
+    margin-bottom: 3px;
+}
+
+.about_info__list li::before {
+    content: "";
+    background-image: url(../images/about_circle-list.png);
+    width: 14px;
+    height: 15px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about-images {
+    order: 1;
+}
+
+
+
+
+
+
+
+
+
