@@ -8,16 +8,16 @@
     box-sizing: inherit;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-    display: inline-block;
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 24px;
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
 }
 
 .container {
@@ -26,15 +26,17 @@ body {
     padding: 0 15px;
 }
 
-header {
-    background-color: black;
-}
-
 .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 120px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .menu__list {
@@ -74,6 +76,8 @@ header {
 .menu__list li a:hover:after{
     display: block;
 }
+
+/* WELCOME */
 
 .top {
     background-color: black;
@@ -164,6 +168,8 @@ header {
     font-weight: 300;
 }
 
+/* ABOUT */
+
 .about {
     background-color: #fff;
     padding-top: 135px;
@@ -246,6 +252,8 @@ header {
     order: 1;
 }
 
+/* OUR TEAM */
+
 .team {
     background-color: black;
     padding-top: 100px;
@@ -284,10 +292,10 @@ header {
 
 .teams__item {
     display: inline-block;
-    width: 24%;
+    width: 21%;
     background-color: black;
     text-align: center;
-    
+    margin-left: 44px;
 }
 
 .teams__photo {
@@ -317,4 +325,130 @@ header {
     font-weight: 400;
 }
 
+/* OUR SERVICES */
+.service {
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 102px;
+}
+
+.service__inner {
+    display: inline-block;
+    font-size: 44px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222222;
+    position: relative;
+    left: 38%;
+    margin-right: -50%;
+    margin-bottom: 55px;
+}
+
+.service-info__descr {
+    text-align: center;
+    margin-bottom: 105px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #6c6c6c;
+}
+
+.service__inner h1:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fcac45;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    left: 0;
+}
+
+.services {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.services__item {
+    display: inline-block;
+    width: 20.5%;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 49px;
+}
+
+.services__photo {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.services__name {
+    font-size: 25px;
+    font-weight: 600;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+.services__text {
+    font-size: 14px;
+    color: #222222;
+    font-weight: 400;
+}
+
+/* OUR CLIENTS */
+
+.client {
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 212px;
+}
+
+.client__inner {
+    display: inline-block;
+    font-size: 44px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    left: 30%;
+    margin-right: -50%;
+    margin-bottom: 112px;
+}
+
+.client__inner h1:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fcac45;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    left: 0;
+}
+
+.clients {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.clients__item {
+    display: inline-block;
+    width: 19%;
+    background-color: black;
+    text-align: center;
+}
+
+.clients__photo {
+    z-index: 3;
+}
+
+/* OUR WORK */
 
