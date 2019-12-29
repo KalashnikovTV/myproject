@@ -612,6 +612,84 @@ a {
     color: #6c6c6c;
     margin-left: 200px;
     margin-right: 200px;
-    margin-bottom: 51px;
+    margin-bottom: 100px;
     font-style: italic;
+}
+
+.contact form {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.contact form div {
+    width: 365px;
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.contact form div label {
+    width: 50%;
+    font-size: 14px;
+    color: #636363;
+    font-weight: 400;
+}
+
+.contact form div label::after {
+    content: " *";
+    color: red;
+}
+
+.contact form div input {
+    width: 100%;
+    margin-top: 5px;
+    height: 40px;
+    border: 1px solid #999999;
+    margin-bottom: 30px;
+    text-indent: 5px;
+}
+
+.contact form input::placeholder{
+    font-size: 14px;
+    text-indent: 5px;
+}
+
+.contact form div textarea{
+    height: 165px;
+    width: 762px;
+    font-size: 14px;
+    margin-top: 5px;
+    text-indent: 4px;
+    resize: none;
+    margin-bottom: 100px;
+}
+
+.contact form div textarea::placeholder{
+    font-size: 15px;
+    text-indent: 4px;
+}
+
+.contact form input[type="submit"]{
+    position: relative;
+    top: 220px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #fcac45;
+    border: none;
+    padding: 15px 62px;
+    font-weight: 600;
+    left: 222px;
+    transition: background .1s linear, color .1s linear;
+}
+
+.contact form input[type="submit"]:hover{
+    color: black;
+    background-color: #999999;
+}
+
+/* FOOTER */
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #222222;
 }
