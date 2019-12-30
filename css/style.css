@@ -49,9 +49,10 @@ a {
     font-family: 'Open Sans', sans-serif;
     position: relative;
     transition: color .2s linear;
+    outline: none;
 }
 
-.menu__list li a:after{
+.menu__list li a:after {
     content: "";
     display: none;
     width: 100%;
@@ -63,11 +64,11 @@ a {
     z-index: 1;
 }
 
-.menu__list li a:hover{
+.menu__list li a:hover {
      color: #fcac45;
 }
 
-.menu__list li a:hover:after{
+.menu__list li a:hover:after {
     display: block;
 }
 
@@ -118,7 +119,7 @@ a {
     margin-bottom: 50px;
 }
 
-.top-info__list li{
+.top-info__list li {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -155,6 +156,10 @@ a {
 .top-info__btn:hover {
     background-color: #fff;
     color: black;
+}
+
+.top-info a {
+    outline: none;
 }
 
 .top-info__btn-descr {
@@ -208,7 +213,7 @@ a {
     color: #6c6c6c;
     margin-bottom: 50px;
     display: block;
-    word-break: break-word;  /* Перенос слов(найти с дефисом)*/
+    word-break: break-word;
 }
 .about_info__list {
     list-style: none;
@@ -347,7 +352,7 @@ a {
     color: #6c6c6c;
 }
 
-.service__inner h1:after{
+.service__inner h1:after {
     content: "";
     display: block;
     width: 100%;
@@ -415,7 +420,7 @@ a {
     margin-bottom: 112px;
 }
 
-.client__inner h1:after{
+.client__inner h1:after {
     content: "";
     display: block;
     width: 100%;
@@ -479,7 +484,7 @@ a {
 
 }
 
-.work__inner h1:after{
+.work__inner h1:after {
     content: "";
     display: block;
     width: 100%;
@@ -532,13 +537,13 @@ a {
     margin-bottom: 115px;
 }
 
-.testimonial__inner h1 span{
+.testimonial__inner h1 span {
     color: #ffffff;
     font-weight: 300;
 
 }
 
-.testimonial__inner h1:after{
+.testimonial__inner h1:after {
     content: "";
     display: block;
     width: 100%;
@@ -593,7 +598,7 @@ a {
     margin-right: -50%;
 }
 
-.contact__inner h1:after{
+.contact__inner h1:after {
     content: "";
     display: block;
     width: 100%;
@@ -648,12 +653,12 @@ a {
     text-indent: 5px;
 }
 
-.contact form input::placeholder{
+.contact form input::placeholder {
     font-size: 14px;
     text-indent: 5px;
 }
 
-.contact form div textarea{
+.contact form div textarea {
     height: 165px;
     width: 762px;
     font-size: 14px;
@@ -663,12 +668,12 @@ a {
     margin-bottom: 100px;
 }
 
-.contact form div textarea::placeholder{
+.contact form div textarea::placeholder {
     font-size: 15px;
     text-indent: 4px;
 }
 
-.contact form input[type="submit"]{
+.contact form input[type="submit"] {
     position: relative;
     top: 220px;
     color: #fff;
@@ -681,7 +686,7 @@ a {
     transition: background .1s linear, color .1s linear;
 }
 
-.contact form input[type="submit"]:hover{
+.contact form input[type="submit"]:hover {
     color: black;
     background-color: #999999;
 }
@@ -696,23 +701,26 @@ footer {
     
 }
 
-footer .socials a{
+footer .socials a {
     border: 0;
     font-size: 22pt;
-    position: absolute;
     color: #b1b1b1;
     left: 50%;
-    transform: translateX(-50%);
+    outline: none;
 }
 
-footer .socials a::before{
+footer .socials {
+    text-align: center;
+}
+
+footer .socials a::before {
     transition: all 0.2s ease-in-out;										
     display: block;
     text-align: center;
     width: 2.5em;
 }
 
-footer .socials a:hover{
+footer .socials a:hover {
     color: rgb(13, 105, 134);
 }
 
