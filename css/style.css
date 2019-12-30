@@ -688,8 +688,31 @@ a {
 
 /* FOOTER */
 
-.footer {
+footer {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #222222;
+    position: relative;
+    
 }
+
+footer .socials a{
+    border: 0;
+    font-size: 22pt;
+    position: absolute;
+    color: #b1b1b1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer .socials a::before{
+    transition: all 0.2s ease-in-out;										
+    display: block;
+    text-align: center;
+    width: 2.5em;
+}
+
+footer .socials a:hover{
+    color: rgb(13, 105, 134);
+}
+
