@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MyWebsite</title>
+    <title>Lispum Media</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
     <script src="https://use.fontawesome.com/a5e30dd034.js"></script>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="container">
             <div class="header__inner">
 
@@ -26,12 +27,12 @@
                 </div>
                 <nav class="menu">
                     <ul class="menu__list">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">SERVICES</a></li>
-                        <li><a href="#">PORTFOLIO</a></li>
-                        <li><a href="#">TESTIMONIALS</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#service">SERVICES</a></li>
+                        <li><a href="#work">PORTFOLIO</a></li>
+                        <li><a href="#testimonial">TESTIMONIALS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </nav>
 
@@ -60,7 +61,7 @@
         </div>
     </section>
 <!-- ABOUT ... -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__inner">
             <div class="about-info">
@@ -127,7 +128,7 @@
     </div>
 </section>
 <!-- OUR SERVICES   -->
-<section class="service">
+<section class="service" id="service">
     <div class="container">
         <div class="service__inner">
             <h1 class="service-info__title">OUR SERVICES</h1>
@@ -190,7 +191,7 @@
     </div>
 </section>
 <!-- OUR WORK -->
-<section class="work">
+<section class="work" id="work">
     <div class="container">
         <div class="work__inner">
             <h1 class="work-info__title">TAKE A LOOK AT <span>OUR WORK</span></h1>
@@ -198,7 +199,7 @@
         <p class="work-info__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</p>
         <div class="works"></div>
             <div class="works__item">
-                <img class="works__photo" src="images/trendan(263x237).png" alt="">
+                <img class="works__photo" src="images/kalashnikovtv.png" alt="">
             </div>
             <div class="works__item">
                 <img class="works__photo" src="images/trendan(263x237).png" alt="">
@@ -236,7 +237,7 @@
     </div>
 </section>
 <!-- OUR TESTIMONIALS -->
-<section class="testimonial">
+<section class="testimonial" id="testimonial">
     <div class="container">
         <div class="testimonial__inner">
             <h1 class="testimonial-info__title">our clients’ <span>testimonials</span></h1>
@@ -247,7 +248,7 @@
     </div>
 </section>
 <!-- CONTACT US -->
-<section class="contact">
+<section class="contact" id="contact">
     <div class="container">
         <div class="contact__inner">
             <h1 class="contact-info__title">CONTACT US</h1>

@@ -33,6 +33,11 @@ a {
     display: inline-block;
 }
 
+.header__inner a {
+    outline-style: none;
+    outline: none;
+}
+
 .menu__list {
     display: flex;
 }
