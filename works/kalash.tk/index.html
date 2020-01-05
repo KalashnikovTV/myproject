@@ -1,0 +1,75 @@
+<html lang="ru">
+	<head>
+		<title>KalashnikovTV \\ Kalash</title>
+		<link rel="icon" type="image/ico" href="1.ico" sizes="45x48">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">		
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>			
+		<script src="https://use.fontawesome.com/a5e30dd034.js"></script>
+		<link rel="stylesheet" href="css/style.css" >
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	</head>
+	<body class="loading">		
+		<div id="wrapper">
+			<video autoplay="autoplay" loop="" id="player">
+            <source src="vid/video2.mp4" type="video/mp4">
+             </video>     
+			<div id="overlay"></div>
+			<div id="main">				
+					<header id="header">					
+					<ul>					
+					<marquee aligt="center" scrollamount="50" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+					</ul>	
+                      <span id="doc_time">Time</span>					
+						<h1>KalashnikovTV</h1>
+						<nav>
+							<ul>	
+                                                                <li><a href="https://vk.com/kalashnikov_tv"  target="_blank" class="fa fa-vk" title="Я в Вконтакте"></a></li>
+																<li><a href="https://www.instagram.com/maksimdiadia/"  target="_blank" class="fa fa-instagram" title="Я в Instagram" aria-hidden="true"></a></li>	
+																<li><a href="https://www.youtube.com/channel/UC2YaJa8vj2OOQ6Wm9W1d_PA"  target="_blank" class="fa fa-youtube" title="Я на Youtube" aria-hidden="true"></a></li>
+                                                                <li><a href="http://steamcommunity.com/profiles/76561198137398210/"  target="_blank" class="fa fa-steam-square" title="Мой профиль Steam" aria-hidden="true"></a></li>	
+																<li><a href="tg://resolve?domain=KalashnikovTV"  target="_blank" class="fa fa-paper-plane" title="Написать мне сообщение в Telegram" aria-hidden="true"></a></li>
+																<li><a href="skype:malashkov_maksim130?chat"  target="_blank" class="fa fa-skype" title="Добавить меня в Skype" aria-hidden="true"></a></li>
+							</ul>
+							<ul>
+							<marquee aligt="center" scrollamount="50" direction="right" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+							</ul>
+						</nav>
+						<!-- Добавлена прокрутка(баганая; на переделку!) -->
+						<center>
+							<marquee height="50" width="1100" scrollamount="10"><font color="#FFFFFF"><p>Не критик имеет значение, не человек, указывающий, где сильный споткнулся, или где тот, кто делает дело, мог бы справиться с ним лучше. Уважения достоин тот, кто сам стоит на арене, у кого лицо покрыто потом, кровью и грязью; кто отважно борется; кто совершает промахи и ошибки, потому что никакой труд не обходится без них; кто познал великий энтузиазм и великую преданность, кто посвящает себя достойной цели; кто, при лучшем исходе, достигает высочайшего триумфа, а при худшем, если его постигает неудача, это по крайней мере неудача в великом дерзновении; и потому никогда он не будет среди тех холодных и робких душ, которым не знакомы ни победа, ни поражение.</p></font></marquee>
+						</center>		
+					</header>
+			</div>
+		</div>
+	</body>
+	
+
+<script type="text/javascript">
+function clock() {
+var d = new Date();
+var hours = d.getHours();
+var minutes = d.getMinutes();
+var seconds = d.getSeconds();
+
+
+if (hours <= 9) hours = "0" + hours;
+if (minutes <= 9) minutes = "0" + minutes;
+if (seconds <= 9) seconds = "0" + seconds;
+
+date_time = hours + ":" + minutes + ":" + seconds;
+if (document.layers) {
+ document.layers.doc_time.document.write(date_time);
+ document.layers.doc_time.document.close();
+}
+else document.getElementById("doc_time").innerHTML = date_time;
+ setTimeout("clock()", 1000);
+}
+</script>
+<script type="text/javascript">
+ clock();
+</script>
+
+</script>
+</html>
