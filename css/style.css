@@ -35,7 +35,6 @@ a {
 
 .header__inner a {
     outline-style: none;
-    outline: none;
 }
 
 .menu__list {
@@ -517,15 +516,11 @@ a {
 }
 
 .works__item img {
-    -moz-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
 }
 
 .works__item img:hover{
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .works__photo {
@@ -741,4 +736,3 @@ footer .socials a::before {
 footer .socials a:hover {
     color: rgb(13, 105, 134);
 }
-
