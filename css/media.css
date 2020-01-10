@@ -204,12 +204,42 @@
         width: 325px;
     }
     .contact form input[type="submit"]{
-        left: 10px;
+        left: 35px;
         padding: 10px 45px;
     }
 }
 
-@media (max-width: 388px){
+@media (max-width: 429px){
+    .contact form div{
+        width: 160px;
+    }
+    .contact form div textarea{
+        width: 345px;
+    }
+    .contact form input[type="submit"]{
+        left: 45px;
+        padding: 10px 45px;
+    }
+}
+
+@media (max-width: 378px){
+    .contact__inner {
+        left: 10%;
+    }
+    .contact form div{
+        width: 305px;
+    }
+    .contact form div textarea{
+        width: 305px;
+    }
+    .contact form input[type="submit"]{
+        left: 210px;
+        top: -70px;
+        padding: 10px 35px;
+    }
+}
+
+@media (max-width: 357px){
     .contact__inner {
         left: 3%;
     }
@@ -233,3 +263,4 @@
         width: 250px;
     }
 }
+
