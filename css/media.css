@@ -1,0 +1,80 @@
+@media (max-width: 992px){
+    .menu__list{
+        padding-right: 45px;
+    }
+
+    .about-info {
+        margin-left: 45px;
+        max-width: 345px;
+    }
+    .about-info__descr {
+        margin-bottom: 20px;
+    }
+    .about-info h1{
+        line-height: 50px;
+    }
+    .teams__item {
+        width: 19%;
+    }
+    .service-info__descr{
+        max-width: 930px;
+    }
+    .services__item{
+        width: 17.5%;
+    }
+    .service__inner {
+        left: 35%;
+    }
+    .teams__item {
+        vertical-align: top;
+    }
+    .team__inner {
+        left: 40%;
+    }
+    .client__inner {
+        left: 25%;
+    }
+    .work__inner{
+        left: 20%;
+    }
+    .work-info__descr{
+        max-width: 930px;
+        margin-bottom: 30px;
+    }
+    .works__item{
+        width: 20%;
+    }
+    .about-images__box img {
+        width: 500px;
+        height: 350px;
+        padding-left: 15px;
+    }
+    .testimonial__inner {
+        left: 19%;
+    }
+    .contact__inner{
+        left: 36%;
+    }
+    .contact form div {
+        width: 250px;
+        margin-left: 20px;
+    }
+    .contact-info__descr {
+        margin-bottom: 50px;
+    }
+    .contact form div textarea{
+        height: 170px;
+        margin-top: 10px;
+        width: 525px;
+    }
+    .contact form input[type="submit"]{
+        left: 102px;
+    }
+
+
+
+
+
+
+
+}
