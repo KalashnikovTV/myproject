@@ -1,3 +1,40 @@
+@media (max-width: 1220px){
+    .contact form div{
+        width: 345px;
+    }
+    .contact form input[type="submit"]{
+        left: 205px;
+    }
+}
+
+
+@media (max-width: 1204px){
+    .contact form div {
+        width: 320px;
+    }
+    .contact form input[type="submit"]{
+        left: 180px;
+    }
+}
+
+@media (max-width: 1130px){
+    .contact form div{
+        width: 290px;
+    }
+    .contact form input[type="submit"]{
+        left: 145px;
+    }
+}
+
+@media (max-width: 1070px){
+    .contact form div{
+        width: 245px;
+    }
+    .contact form input[type="submit"]{
+        left: 95px;
+    }
+}
+
 @media (max-width: 992px){
     .menu__list{
         padding-right: 45px;
@@ -70,11 +107,129 @@
     .contact form input[type="submit"]{
         left: 102px;
     }
+}
 
+@media (max-width: 974px){
+    .contact form div{
+        width: 220px;
+    }
+    .contact form input[type="submit"]{
+        left: 70px;
+    }
+    .contact form div textarea{
+        width: 465px;
+    }
+}
 
+@media (max-width: 915px){
+    .contact-info__descr {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .contact form {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
 
+@media (max-width: 717px){
+    .contact form div{
+        width: 200px;
+    }
+    .contact form input[type="submit"]{
+        left: 50px;
+    }
+    .contact form div textarea{
+        width: 425px;
+    }
+}
 
+@media (max-width: 680px){
+    .contact-info__descr {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .contact form {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contact__inner {
+        left: 28%;
+    }
+}
 
+@media (max-width: 574px){
+    .contact-info__descr {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .contact form {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
 
+@media (max-width: 488px){
+    .contact__inner {
+        left: 15%;
+    }
+    .contact form div textarea{
+        width: 385px;
+    }
+    .contact {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .contact form div{
+        width: 180px;
+    }
+    .contact form input[type="submit"]{
+        left: 30px;
+    }
+}
 
+@media (max-width: 450px){
+    .contact-info__descr {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .contact form {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact form div{
+        width: 150px;
+    }
+    .contact form div textarea{
+        width: 325px;
+    }
+    .contact form input[type="submit"]{
+        left: 10px;
+        padding: 10px 45px;
+    }
+}
+
+@media (max-width: 388px){
+    .contact__inner {
+        left: 3%;
+    }
+    .contact-info__descr {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .contact form {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact form div{
+        width: 250px;
+    }
+    .contact form input[type="submit"]{
+        left: 155px;
+        top: -70px;
+        padding: 10px 35px;
+    }
+    .contact form div textarea{
+        width: 250px;
+    }
 }

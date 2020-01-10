@@ -18,6 +18,7 @@ header {
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 15px;
+    overflow: hidden
 }
 
 .header__inner {
@@ -25,6 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 120px;
+    
 }
 
 a {
@@ -110,6 +112,7 @@ a {
     text-transform: uppercase;
     line-height: 24px;
     margin-bottom: 20px;
+    margin-top: 5px;
 }
 
 .top-info__title span{
@@ -273,6 +276,7 @@ a {
     left: 41%;
     margin-right: -50%;
     margin-bottom: 110px;
+    margin-top: 5px;
 }
 
 .team__inner h1:after{
@@ -299,6 +303,7 @@ a {
     background-color: black;
     text-align: center;
     margin-left: 44px;
+    vertical-align: top;
 }
 
 .teams__photo {
@@ -345,6 +350,8 @@ a {
     left: 38%;
     margin-right: -50%;
     margin-bottom: 55px;
+    margin-top: 5px;
+
 }
 
 .service-info__descr {
@@ -422,6 +429,7 @@ a {
     left: 31%;
     margin-right: -50%;
     margin-bottom: 112px;
+    margin-top: 5px;
 }
 
 .client__inner h1:after {
@@ -471,6 +479,7 @@ a {
     left: 27%;
     margin-right: -50%;
     margin-bottom: 60px;
+    margin-top: 5px;
 }
 
 .work-info__title span {
@@ -548,6 +557,7 @@ a {
     left: 25%;
     margin-right: -50%;
     margin-bottom: 115px;
+    margin-top: 5px;
 }
 
 .testimonial__inner h1 span {
@@ -609,6 +619,7 @@ a {
     position: relative;
     left: 38%;
     margin-right: -50%;
+    margin-top: 5px;
 }
 
 .contact__inner h1:after {
@@ -673,12 +684,13 @@ a {
 
 .contact form div textarea {
     height: 165px;
-    width: 762px;
+    width: 210%;
     font-size: 14px;
     margin-top: 5px;
     text-indent: 4px;
     resize: none;
     margin-bottom: 100px;
+    border: 1px solid #999999;
 }
 
 .contact form div textarea::placeholder {
@@ -736,3 +748,4 @@ footer .socials a::before {
 footer .socials a:hover {
     color: rgb(13, 105, 134);
 }
+
