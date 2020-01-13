@@ -49,7 +49,6 @@ a {
 
 .menu__list li a {
     font-size: 14px;
-    display: inline-block;
     color: #ffffff;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
@@ -387,6 +386,8 @@ a {
     background-color: #fff;
     text-align: center;
     margin-left: 49px;
+    vertical-align: top;
+
 }
 
 .services__photo {

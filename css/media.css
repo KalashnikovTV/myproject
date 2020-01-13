@@ -15,6 +15,18 @@
     .contact form input[type="submit"]{
         left: 180px;
     }
+    .about-info {
+        margin-left: 90px;
+    }
+    .teams__item {
+        width: 20%;
+    }
+    .services__item {
+        width: 19.5%;
+    }
+    .works__item {
+        width: 20%;
+    }
 }
 
 @media (max-width: 1130px){
@@ -36,10 +48,6 @@
 }
 
 @media (max-width: 992px){
-    .menu__list{
-        padding-right: 45px;
-    }
-
     .about-info {
         margin-left: 45px;
         max-width: 345px;
@@ -119,6 +127,46 @@
     .contact form div textarea{
         width: 465px;
     }
+    .menu__list{
+        display: none;
+        position: absolute;
+        top: 120px;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        background-color: #fcac45;
+    }
+    .menu__list a{
+        display: block;
+        padding: 10px 0;
+    }
+
+    .menu__btn{
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+    .menu__btn span{
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        top: 15px;
+        position: absolute;
+    }
+    .menu__btn::after,
+    .menu__btn::before{
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+    }
+    .menu__btn::after{
+        top: 0;
+    }
+    .menu__btn::before{
+        bottom: 0;
+    }
 }
 
 @media (max-width: 915px){
@@ -186,6 +234,9 @@
     .contact form input[type="submit"]{
         left: 30px;
     }
+    footer .socials a::before {
+        width: 1.5em;
+    }
 }
 
 @media (max-width: 450px){
@@ -221,6 +272,22 @@
         padding: 10px 45px;
     }
 }
+
+@media (max-width: 393px){
+    .contact form div{
+        width: 150px;
+    }
+    .contact form div textarea{
+        width: 325px;
+    }
+    .contact form input[type="submit"]{
+        left: 55px;
+        padding: 10px 35px;
+    }
+}
+
+
+
 
 @media (max-width: 378px){
     .contact__inner {
@@ -264,3 +331,10 @@
     }
 }
 
+
+
+@media (min-width: 975px){
+    .menu__list{
+        display: flex !important;
+    }
+}
