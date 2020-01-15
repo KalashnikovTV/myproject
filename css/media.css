@@ -127,18 +127,26 @@
     .contact form div textarea{
         width: 465px;
     }
+    .menu__list li{
+        margin-left: 0;
+    }
     .menu__list{
         display: none;
         position: absolute;
-        top: 120px;
+        top: 115px;
         width: 100%;
         left: 0;
+        right: 0;
         text-align: center;
-        background-color: #fcac45;
+        background-color: #fcac45; 
+        z-index: 5;
+        border-top: 1px solid #000;
     }
     .menu__list a{
         display: block;
         padding: 10px 0;
+        border-bottom: 1px solid #000;
+       
     }
 
     .menu__btn{
@@ -178,9 +186,106 @@
         padding-left: 100px;
         padding-right: 100px;
     }
+    .about-info {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 816px){
+    .teams__item {
+        width: 18%;
+    }
+    .about-images__box img {
+        width: 400px;
+        height: 330px;
+        padding-left: 0;
+    }
+    .service__inner {
+        left: 32%;
+    }
+    .client__inner {
+        left: 20%;
+    }
+    .work__inner {
+        left: 13%;
+    }
+    .testimonial__inner {
+        left: 13%;
+    }
+    .contact__inner {
+        left: 33%;
+    }
+    .works__item {
+        width: 27%;
+    }
+}
+
+@media (max-width: 726px){
+    .top {
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+    .about {
+        padding-top: 100px;
+    }
+    .team {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    .service {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    .client {
+        padding-top: 70px;
+        padding-bottom: 150px;
+    }
+    .work {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .testimonial {
+        padding-top: 70px;
+        padding-bottom: 120px;
+    }
+    .contact {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .services__item {
+        width: 15.5%;
+    }
+    .teams__item {
+        width: 17%;
+        margin-left: 40px;
+    }
 }
 
 @media (max-width: 717px){
+    .top-info__list li {
+        left: 275px;
+    }
+    .about-images__box img {
+        width: 330px;
+    }
+    .about-info {
+        margin-left: 20px;
+    }
+    .team__inner {
+        left: 33%;
+    }
+    .service__inner {
+        left: 28%;
+    }
+    .client__inner {
+        left: 14%;
+    }
+    .work__inner {
+        left: 7%;
+    }
+    .testimonial__inner {
+        left: 7%;
+    }
     .contact form div{
         width: 200px;
     }
@@ -193,6 +298,24 @@
 }
 
 @media (max-width: 680px){
+    .top-info__list li {
+        left: 250px;
+    }
+    .about-images__box img {
+        width: 300px;
+        height: 300px;
+    }
+    .teams__photo {
+        width: 107px;
+        height: 107px;
+    }
+    .service-info__descr {
+        margin-bottom: 70px
+    }
+    .services__photo {
+        width: 100px;
+        height: 100px;
+    }
     .contact-info__descr {
         margin-left: 50px;
         margin-right: 50px;
@@ -204,9 +327,31 @@
     .contact__inner {
         left: 28%;
     }
-}
+    .services__item {
+        width: 36.5%;
+        margin-top: 30px;
+    }
+    .service-info__descr {
+        margin-bottom: 30px;
+    }
+    .top-info__title {
+        line-height: 44px;
+        margin-bottom: 35px;
+    }
+    .testimonial__inner {
+        left: 4%;
+        line-height: 44px; 
+        max-width: 95%;               /*  =   pizdec */
+    }
 
 @media (max-width: 574px){
+    .works__item {
+        width: 40%;
+    }
+    .testimonial-info__descr{
+        margin-left: 0;
+        margin-right: 0;
+    }
     .contact-info__descr {
         margin-left: 5px;
         margin-right: 5px;
@@ -215,9 +360,47 @@
         padding-left: 5px;
         padding-right: 5px;
     }
+    .top-info__list li {
+        left: 200px;
+    }
+    .teams__item {
+        width: 39%;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    .team__inner {
+        margin-bottom: 60px;
+    }
+    .about {
+        padding-top: 70px;
+    }
+    .about-images {
+        order: 2;
+    }
+    .about-images__box img {
+        width: 360px;
+        height: 330px;
+    }
+    .about__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-info {
+        max-width: 100%;
+        margin-bottom: 55px;
+    }
 }
 
 @media (max-width: 488px){
+    .top-info__list li {
+        left: 160px;
+    }
+    .team__inner {
+        left: 26%;
+    }
+    .service__inner {
+        left: 18%;
+    }
     .contact__inner {
         left: 15%;
     }
@@ -240,6 +423,9 @@
 }
 
 @media (max-width: 450px){
+    .top-info p {
+        line-height: 28px;
+    }
     .contact-info__descr {
         margin-left: 0px;
         margin-right: 0px;
@@ -258,6 +444,9 @@
         left: 35px;
         padding: 10px 45px;
     }
+    .top-info__list li {
+        left: 135px;
+    }
 }
 
 @media (max-width: 429px){
@@ -271,6 +460,15 @@
         left: 45px;
         padding: 10px 45px;
     }
+    .top-info__list li {
+        left: 130px;
+    }
+    img.logo_header {
+        height: 30px;
+    }
+    img.logo_text {
+        width: 190px;
+    }
 }
 
 @media (max-width: 393px){
@@ -283,6 +481,9 @@
     .contact form input[type="submit"]{
         left: 55px;
         padding: 10px 35px;
+    }
+    .top-info__list li {
+        left: 105px;
     }
 }
 
@@ -304,9 +505,19 @@
         top: -70px;
         padding: 10px 35px;
     }
+    .works__item {
+        margin-left: 25px;
+        margin-top: 5px;
+    }
 }
 
 @media (max-width: 357px){
+    .top-info__list li {
+        left: 95px;
+    }
+    .works__item {
+        width: 85%;
+    }
     .contact__inner {
         left: 3%;
     }
@@ -328,6 +539,12 @@
     }
     .contact form div textarea{
         width: 250px;
+    }
+}
+
+@media (max-width: 340px) {
+    .top-info__list li {
+        left: 70px;
     }
 }
 
