@@ -345,6 +345,15 @@
     }
 
 @media (max-width: 574px){
+    .service__inner {
+        left: 22%;
+    }
+    .team__inner {
+        left: 30%;
+    }
+    .about {
+        padding-top: 50px;
+    }
     .works__item {
         width: 40%;
     }
@@ -420,6 +429,27 @@
     footer .socials a::before {
         width: 1.5em;
     }
+    .about {
+        padding-top: 50px;
+    }
+    .service {
+        padding-top: 50px;
+    }
+    .team {
+        padding-top: 50px;
+    }
+    .client {
+        padding-top: 50px;
+    }
+    .work {
+        padding-top: 50px;
+    }
+    .testimonial {
+        padding-top: 50px;
+    }
+    .contact {
+        padding-top: 50px;
+    }
 }
 
 @media (max-width: 450px){
@@ -447,9 +477,24 @@
     .top-info__list li {
         left: 135px;
     }
+    .service-info__descr {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 429px){
+    .service__inner {
+        left: 12%;
+    }
+    .services__item {
+        width: 76.5%;
+    }
+    .team__inner {
+        left: 23%;
+    }
+    .teams__item {
+        width: 80%;
+    }
     .contact form div{
         width: 160px;
     }
@@ -485,6 +530,16 @@
     .top-info__list li {
         left: 105px;
     }
+    .team__inner {
+        left: 19%;
+    }
+    .service__inner {
+        left: 7%;
+    }
+    .about-images__box img {
+        width: 320px;
+        height: 280px;
+    }
 }
 
 
@@ -512,6 +567,12 @@
 }
 
 @media (max-width: 357px){
+    .service__inner {
+        left: 3%;
+    }
+    .team__inner {
+        left: 15%;
+    }
     .top-info__list li {
         left: 95px;
     }
@@ -540,15 +601,41 @@
     .contact form div textarea{
         width: 250px;
     }
-}
-
-@media (max-width: 340px) {
-    .top-info__list li {
-        left: 70px;
+    .about-info {
+        margin-left: 10px;
     }
 }
 
+@media (max-width: 340px) {
+    .about-images__box img {
+        width: 300px;
+        height: 260px;
+    }
+    .top-info__list li {
+        left: 70px;
+    }
+    .service__inner {
+        left: 1%;
+    }
+    .service__inner {
+        left: 1%;
+    }
+}
 
+@media (max-width: 322px){
+    .services__item {
+        width: 67.5%;
+    }
+    .service__inner {
+        left: -2%;
+    }
+    .team__inner {
+        left: 11%;
+    }
+    .teams__item {
+        width: 74%;
+    }
+}
 
 @media (min-width: 975px){
     .menu__list{
