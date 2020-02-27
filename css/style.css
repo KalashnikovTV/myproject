@@ -606,6 +606,8 @@ form button {
     padding-bottom: 30px;
     background-color: #222222;
     position: relative;
+    text-align: center;
+
 }
 
 .footer .socials a {
@@ -618,12 +620,8 @@ form button {
     margin-left: 15px;
 }
 
-.footer .socials {
-    text-align: center;
-}
-
 .footer .socials a::before {
-    transition: all 0.2s ease-in-out;				
+    transition: all 0.2s ease-in-out;		
     display: block;
 }
 
