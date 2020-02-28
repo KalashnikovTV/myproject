@@ -150,7 +150,6 @@ a {
     height: 55px;
     text-align: center;
     margin: 0 auto;
-    outline: none;
     color: #fff;
     text-transform: uppercase;
     border: 3px solid #fff;
@@ -164,6 +163,10 @@ a {
 .top-info__link:hover {
     background-color: #fff;
     color: black;
+}
+
+.top-info__link:focus {
+    outline: none;
 }
 
 /* ABOUT */

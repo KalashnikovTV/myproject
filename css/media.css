@@ -105,6 +105,15 @@
     .client__item + .client__item {
         padding-left: 20px;
     }
+    .top-info__link {
+        background-color: #fff;
+        color: #000;
+    }
+    .top-info__link:focus,
+    .work__item a:focus,
+    .socials a:focus {
+        outline: none;
+    }
 }
 
 @media (max-width: 890px) {
@@ -170,6 +179,10 @@
     }
     .contact__content {
         margin-bottom: 70px;
+    }
+    .work__item img {
+        min-width: 100%;
+        width: 100%;
     }
 }
 
