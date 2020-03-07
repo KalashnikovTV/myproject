@@ -49,7 +49,8 @@
                 <div class="top-info__title">
                     WELCOME ON <span>MY WEBSITE</span>
                 </div>
-                <div class="top-info__text">We are a digital agency with <span>0 years of experience</span> and with <span>extraordinary people</span></div>
+                <div class="top-info__text">We are a digital agency with <span>0 years of experience</span> and with
+                    <span>extraordinary people</span></div>
                 <ul class="top-info__list">
                     <li>FREE buckwheat</li>
                     <li>FREE chicken breast</li>
@@ -333,21 +334,29 @@
                         ipsa tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </div>
                     <form>
+
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="kalash.tk">
+                        <input type="hidden" name="admin_email" value="skittles13014@gmail.com">
+                        <input type="hidden" name="form_subject" value="Footer form">
+                        <!-- END Hidden Required Fields -->
+
                         <div class="contact__form-row">
                             <div class="contact__form-one">
                                 <label>Name <span>*</span></label>
-                                <input type="text" placeholder="Name*" required>
+                                <input name="Name" type="text" placeholder="Name*" required>
                             </div>
                             <div class="contact__form-two">
                                 <label>E-mail address <span>*</span></label>
-                                <input type="text" placeholder="E-mail*" required>
+                                <input name="E-mail" type="text" placeholder="E-mail*" required>
                             </div>
                         </div>
                         <div class="contact__form-box">
                             <label>Message <span>*</span></label>
-                            <textarea placeholder="Message*" required></textarea>
-                            <button type="submit">SEND</button>
+                            <textarea name="Message" placeholder="Message*" required></textarea>
                         </div>
+                        <button type="submit">SEND</button>
+
                     </form>
                 </div>
             </div>
@@ -371,4 +380,5 @@
     <script src="js/main.js"></script>
 
 </body>
+
 </html>
